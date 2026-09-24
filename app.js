@@ -50,10 +50,25 @@ const STRINGS = {
     empty: '没有带此标签的项目。',
     tags: { science: '科学', apps: '应用', ai: 'AI', creative: '创意' },
   },
+  ko: {
+    bio: '과학 시각화, AI 기반 도구, 그리고 코드로 쓴 이야기.',
+    featured: '추천 프로젝트',
+    more: '더 많은 프로젝트',
+    footer: 'GitHub Pages에서 호스팅되며, 통계는 GitHub API에서 가져옵니다.',
+    all: '전체',
+    demo: '라이브 데모',
+    code: '코드',
+    updated: '업데이트:',
+    stars: (n) => `별 ${n}개`,
+    loading: '프로젝트를 불러오는 중…',
+    error: '프로젝트 목록을 불러올 수 없습니다.',
+    empty: '이 태그의 프로젝트가 없습니다.',
+    tags: { science: '과학', apps: '앱', ai: 'AI', creative: '창작' },
+  },
 };
 
 // Value for <html lang>; lets browsers pick Simplified Chinese glyphs.
-const HTML_LANG = { en: 'en', it: 'it', zh: 'zh-Hans' };
+const HTML_LANG = { en: 'en', it: 'it', zh: 'zh-Hans', ko: 'ko' };
 
 const LANG_COLORS = {
   JavaScript: '#f1e05a', TypeScript: '#3178c6', HTML: '#e34c26', CSS: '#563d7c',
