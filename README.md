@@ -9,7 +9,8 @@ Plain HTML, CSS and JavaScript, with no build step. GitHub Pages serves the file
 | `index.html` | Page shell: header, language toggle, sections |
 | `projects.json` | The curated list of projects shown on the page |
 | `app.js` | Renders the cards, handles EN/IT/中文 and tag filters, fetches live GitHub stats |
-| `styles.css` | Styles, including dark mode |
+| `background.js` | Starfield background from [celestial-zen](https://github.com/chiantera/celestial-zen), with a random hue and speed on each load |
+| `styles.css` | Styles (dark theme over the starfield) |
 
 ## Adding or editing a project
 
