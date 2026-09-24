@@ -35,7 +35,25 @@ const STRINGS = {
     empty: 'Nessun progetto con questo tag.',
     tags: { science: 'Scienza', apps: 'App', ai: 'AI', creative: 'Creativi' },
   },
+  zh: {
+    bio: '科学可视化、AI 辅助工具，以及用代码写成的故事。',
+    featured: '精选项目',
+    more: '更多项目',
+    footer: '托管于 GitHub Pages，统计数据来自 GitHub API。',
+    all: '全部',
+    demo: '在线演示',
+    code: '源代码',
+    updated: '更新于',
+    stars: (n) => `${n} 颗星`,
+    loading: '正在加载项目…',
+    error: '无法加载项目列表。',
+    empty: '没有带此标签的项目。',
+    tags: { science: '科学', apps: '应用', ai: 'AI', creative: '创意' },
+  },
 };
+
+// Value for <html lang>; lets browsers pick Simplified Chinese glyphs.
+const HTML_LANG = { en: 'en', it: 'it', zh: 'zh-Hans' };
 
 const LANG_COLORS = {
   JavaScript: '#f1e05a', TypeScript: '#3178c6', HTML: '#e34c26', CSS: '#563d7c',
@@ -58,8 +76,9 @@ function storageSet(store, key, value) {
 
 function initialLang() {
   const saved = storageGet('localStorage', LANG_KEY);
-  if (saved === 'en' || saved === 'it') return saved;
-  return (navigator.language || '').toLowerCase().startsWith('it') ? 'it' : 'en';
+  if (STRINGS[saved]) return saved;
+  const browser = (navigator.language || '').toLowerCase().slice(0, 2);
+  return STRINGS[browser] ? browser : 'en';
 }
 
 function currentTag() {
@@ -102,8 +121,8 @@ function card(p) {
   );
 
   return el('article', { class: 'card', 'data-tags': p.tags.join(' ') },
-    el('h3', {}, el('a', { href: p.demo || repoUrl }, p.title[lang])),
-    el('p', { class: 'desc' }, p.description[lang]),
+    el('h3', {}, el('a', { href: p.demo || repoUrl }, p.title[lang] || p.title.en)),
+    el('p', { class: 'desc' }, p.description[lang] || p.description.en),
     el('ul', { class: 'tags' }, ...p.tags.map((tag) => el('li', {}, t.tags[tag] || tag))),
     meta,
     el('div', { class: 'actions' },
@@ -131,7 +150,7 @@ function renderFilters() {
 
 function render() {
   const t = STRINGS[lang];
-  document.documentElement.lang = lang;
+  document.documentElement.lang = HTML_LANG[lang];
   document.querySelectorAll('[data-i18n]').forEach((node) => { node.textContent = t[node.dataset.i18n]; });
   document.querySelectorAll('[data-lang]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
 
