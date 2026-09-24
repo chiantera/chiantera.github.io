@@ -1,18 +1,58 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>chiantera · projects</title>
+  <meta name="description" content="Projects by chiantera: science visualizations, AI-assisted tools and code-made stories.">
+  <meta property="og:title" content="chiantera · projects">
+  <meta property="og:description" content="Science visualizations, AI-assisted tools and code-made stories.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chiantera.github.io/">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div>
+        <h1 class="name">chiantera<span class="cursor" aria-hidden="true">_</span></h1>
+        <p class="bio" data-i18n="bio">Science visualizations, AI-assisted tools and stories made with code.</p>
+        <nav class="links" aria-label="Links">
+          <a href="https://github.com/chiantera">GitHub ↗</a>
+        </nav>
+      </div>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="it" aria-pressed="false">IT</button>
+        <button type="button" data-lang="zh" aria-pressed="false" lang="zh-Hans">中文</button>
+      </div>
+    </div>
+  </header>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+  <main class="wrap">
+    <div class="filters" role="toolbar" aria-label="Filter projects" id="filters" hidden></div>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Hello World! It's me. This is my website.</p>
+    <section id="featured-section" aria-labelledby="featured-title" hidden>
+      <h2 id="featured-title" data-i18n="featured">Featured</h2>
+      <div class="grid grid-featured" id="featured"></div>
+    </section>
 
+    <section id="more-section" aria-labelledby="more-title" hidden>
+      <h2 id="more-title" data-i18n="more">More projects</h2>
+      <div class="grid" id="more"></div>
+    </section>
+
+    <p class="status" id="status" role="status"></p>
+
+    <noscript>
+      <p class="status">This page needs JavaScript to list projects. Browse them on <a href="https://github.com/chiantera?tab=repositories">GitHub</a>.</p>
+    </noscript>
+  </main>
+
+  <footer class="wrap site-footer">
+    <p><span data-i18n="footer">Hosted on GitHub Pages. Stats from the GitHub API.</span></p>
+  </footer>
 </body>
 </html>
