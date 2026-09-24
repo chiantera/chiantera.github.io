@@ -1,11 +1,12 @@
 [
   {
     "repo": "quantum-periodic-table",
-    "title": { "en": "Quantum Periodic Table", "it": "Tavola periodica quantistica", "zh": "量子元素周期表" },
+    "title": { "en": "Quantum Periodic Table", "it": "Tavola periodica quantistica", "zh": "量子元素周期表", "ko": "양자 주기율표" },
     "description": {
       "en": "Interactive 3D periodic table that renders the real electron probability clouds of all 118 elements as their orbitals fill up.",
       "it": "Tavola periodica 3D interattiva che mostra le vere nuvole di probabilità elettronica di tutti i 118 elementi, orbitale dopo orbitale.",
-      "zh": "交互式 3D 元素周期表，随着轨道逐层填充，实时呈现全部 118 种元素真实的电子概率云。"
+      "zh": "交互式 3D 元素周期表，随着轨道逐层填充，实时呈现全部 118 种元素真实的电子概率云。",
+      "ko": "오비탈이 차례로 채워지는 과정에 따라 118개 원소 모두의 실제 전자 확률 구름을 보여 주는 인터랙티브 3D 주기율표."
     },
     "tags": ["science"],
     "demo": "https://chiantera.github.io/quantum-periodic-table/",
@@ -13,22 +14,24 @@
   },
   {
     "repo": "turni",
-    "title": { "en": "Turni", "it": "Turni", "zh": "Turni 排班" },
+    "title": { "en": "Turni", "it": "Turni", "zh": "Turni 排班", "ko": "Turni 교대 근무표" },
     "description": {
       "en": "Shift planner for n workers over m posts: describe the rules in plain language and a deterministic solver guarantees coverage, contract hours and minimum rest.",
       "it": "Pianificatore di turni per n lavoratori su m postazioni: descrivi le regole in linguaggio naturale e un solver deterministico garantisce copertura, monte ore e riposi minimi.",
-      "zh": "为 n 名员工、m 个岗位排班：用自然语言描述规则，确定性求解器保证岗位覆盖、合同工时和最低休息时间。"
+      "zh": "为 n 名员工、m 个岗位排班：用自然语言描述规则，确定性求解器保证岗位覆盖、合同工时和最低休息时间。",
+      "ko": "n명의 근무자와 m개의 근무지를 위한 교대 근무 플래너. 규칙을 자연어로 설명하면 결정론적 솔버가 인력 배치, 계약 근무 시간, 최소 휴식을 보장합니다."
     },
     "tags": ["apps", "ai"],
     "featured": true
   },
   {
     "repo": "fiabe",
-    "title": { "en": "Fiabe", "it": "Fiabe", "zh": "Fiabe 童话" },
+    "title": { "en": "Fiabe", "it": "Fiabe", "zh": "Fiabe 童话", "ko": "Fiabe 동화" },
     "description": {
       "en": "A shelf of bedtime-story books set in the meadow at the foot of the hill: Nina the firefly, Tilde the old mole and Ugo the bat, with narrated audio.",
       "it": "Uno scaffale di libri di fiabe della buonanotte dal prato ai piedi della collina: Nina la lucciola, Tilde la vecchia talpa e Ugo il pipistrello, con audio narrato.",
-      "zh": "山脚草地上的睡前故事书架：萤火虫妮娜、老鼹鼠蒂尔德和蝙蝠乌戈，配有朗读音频（意大利语）。"
+      "zh": "山脚草地上的睡前故事书架：萤火虫妮娜、老鼹鼠蒂尔德和蝙蝠乌戈，配有朗读音频（意大利语）。",
+      "ko": "언덕 기슭 풀밭에서 들려주는 잠자리 동화 책장. 반딧불이 니나, 늙은 두더지 틸데, 박쥐 우고의 이야기와 낭독 오디오가 함께합니다(이탈리아어)."
     },
     "tags": ["creative"],
     "demo": "https://chiantera.github.io/fiabe/",
@@ -36,11 +39,12 @@
   },
   {
     "repo": "celestial-zen",
-    "title": { "en": "Celestial Zen", "it": "Celestial Zen", "zh": "Celestial Zen" },
+    "title": { "en": "Celestial Zen", "it": "Celestial Zen", "zh": "Celestial Zen", "ko": "Celestial Zen" },
     "description": {
       "en": "A 3D meditation experience: 50,000+ WebGL stars that follow the mouse, with synthesized ambient audio and adjustable flow and hue.",
       "it": "Un'esperienza di meditazione in 3D: oltre 50.000 stelle WebGL che seguono il mouse, audio ambient sintetizzato e flusso e colore regolabili.",
-      "zh": "3D 冥想体验：五万多颗 WebGL 星星随鼠标流动，配合合成的环境音乐，可调节流速和色调。"
+      "zh": "3D 冥想体验：五万多颗 WebGL 星星随鼠标流动，配合合成的环境音乐，可调节流速和色调。",
+      "ko": "3D 명상 체험. 마우스를 따라 흐르는 5만 개 이상의 WebGL 별, 합성된 앰비언트 사운드, 조절 가능한 흐름과 색조."
     },
     "tags": ["science", "creative"],
     "demo": "https://chiantera.github.io/celestial-zen/",
@@ -48,22 +52,24 @@
   },
   {
     "repo": "plt",
-    "title": { "en": "Pocket Legal Triage", "it": "Pocket Legal Triage", "zh": "Pocket Legal Triage" },
+    "title": { "en": "Pocket Legal Triage", "it": "Pocket Legal Triage", "zh": "Pocket Legal Triage", "ko": "Pocket Legal Triage" },
     "description": {
       "en": "Mobile-first case triage for Italian criminal-defense lawyers: turns messy case files into timelines, deadlines, contradictions and draft work products.",
       "it": "Triage mobile-first per avvocati penalisti: trasforma fascicoli disordinati in cronologie, scadenze, contraddizioni e bozze di atti.",
-      "zh": "为意大利刑事辩护律师设计的移动优先案件梳理工具：把杂乱的卷宗整理成时间线、期限、矛盾点和文书草稿。"
+      "zh": "为意大利刑事辩护律师设计的移动优先案件梳理工具：把杂乱的卷宗整理成时间线、期限、矛盾点和文书草稿。",
+      "ko": "이탈리아 형사 변호인을 위한 모바일 우선 사건 정리 도구. 복잡한 사건 기록을 타임라인, 기한, 모순점, 문서 초안으로 정리합니다."
     },
     "tags": ["apps", "ai"],
     "featured": true
   },
   {
     "repo": "ahab",
-    "title": { "en": "Ahab: reading Moby-Dick", "it": "Ahab: leggere Moby Dick", "zh": "Ahab：解读《白鲸》" },
+    "title": { "en": "Ahab: reading Moby-Dick", "it": "Ahab: leggere Moby Dick", "zh": "Ahab：解读《白鲸》", "ko": "Ahab: 『모비 딕』 읽기" },
     "description": {
       "en": "An interactive journey through the allegories, characters, events and symbols of Herman Melville's Moby-Dick (in Italian).",
       "it": "Un viaggio interattivo tra le allegorie, i personaggi, gli eventi e i simboli di Moby Dick di Herman Melville.",
-      "zh": "一场交互式旅程，探索梅尔维尔《白鲸》中的寓意、人物、事件与象征（意大利语）。"
+      "zh": "一场交互式旅程，探索梅尔维尔《白鲸》中的寓意、人物、事件与象征（意大利语）。",
+      "ko": "허먼 멜빌의 『모비 딕』 속 알레고리, 인물, 사건, 상징을 탐험하는 인터랙티브 여정(이탈리아어)."
     },
     "tags": ["creative"],
     "demo": "https://chiantera.github.io/ahab/",
@@ -71,118 +77,129 @@
   },
   {
     "repo": "atomic-visualizer",
-    "title": { "en": "Orbital Explorer", "it": "Orbital Explorer", "zh": "Orbital Explorer" },
+    "title": { "en": "Orbital Explorer", "it": "Orbital Explorer", "zh": "Orbital Explorer", "ko": "Orbital Explorer" },
     "description": {
       "en": "Hydrogen-like s, p, d and f orbitals rendered as 3D isosurfaces, with element and ion selectors and an adjustable threshold.",
       "it": "Orbitali idrogenoidi s, p, d e f resi come isosuperfici 3D, con selezione di elemento e ione e soglia regolabile.",
-      "zh": "以 3D 等值面呈现类氢原子的 s、p、d、f 轨道，可选择元素和离子，并调节阈值。"
+      "zh": "以 3D 等值面呈现类氢原子的 s、p、d、f 轨道，可选择元素和离子，并调节阈值。",
+      "ko": "수소 유사 원자의 s, p, d, f 오비탈을 3D 등위면으로 표현하며, 원소와 이온 선택 및 임계값 조절을 지원합니다."
     },
     "tags": ["science"],
     "demo": "https://chiantera.github.io/atomic-visualizer/"
   },
   {
     "repo": "opus-atom",
-    "title": { "en": "Plasma Kepler", "it": "Plasma Kepler", "zh": "Plasma Kepler" },
+    "title": { "en": "Plasma Kepler", "it": "Plasma Kepler", "zh": "Plasma Kepler", "ko": "Plasma Kepler" },
     "description": {
       "en": "Interactive 3D visualizer of atomic structure.",
       "it": "Visualizzatore 3D interattivo della struttura atomica.",
-      "zh": "交互式 3D 原子结构可视化工具。"
+      "zh": "交互式 3D 原子结构可视化工具。",
+      "ko": "원자 구조를 보여 주는 인터랙티브 3D 시각화 도구."
     },
     "tags": ["science"],
     "demo": "https://chiantera.github.io/opus-atom/"
   },
   {
     "repo": "atom",
-    "title": { "en": "Quantum Atom", "it": "Quantum Atom", "zh": "Quantum Atom" },
+    "title": { "en": "Quantum Atom", "it": "Quantum Atom", "zh": "Quantum Atom", "ko": "Quantum Atom" },
     "description": {
       "en": "A single-page atom simulation showing nucleon packing and a plasma-bloom effect. Drag to rotate, scroll to zoom.",
       "it": "Simulazione di un atomo in una sola pagina, con impacchettamento dei nucleoni ed effetto plasma. Trascina per ruotare, scorri per lo zoom.",
-      "zh": "单页原子模拟，展示核子堆积与等离子绽放效果。拖动旋转，滚动缩放。"
+      "zh": "单页原子模拟，展示核子堆积与等离子绽放效果。拖动旋转，滚动缩放。",
+      "ko": "핵자 배열과 플라스마 블룸 효과를 보여 주는 한 페이지 원자 시뮬레이션. 드래그로 회전, 스크롤로 확대/축소."
     },
     "tags": ["science"],
     "demo": "https://chiantera.github.io/atom/"
   },
   {
     "repo": "alaska",
-    "title": { "en": "Alaska Climate Explorer", "it": "Alaska Climate Explorer", "zh": "阿拉斯加气候探索" },
+    "title": { "en": "Alaska Climate Explorer", "it": "Alaska Climate Explorer", "zh": "阿拉斯加气候探索", "ko": "알래스카 기후 탐험" },
     "description": {
       "en": "Explore Alaska's live weather, sea ice, historical climate data and interactive climate-change scenarios.",
       "it": "Meteo in tempo reale, ghiaccio marino, dati climatici storici e scenari interattivi di cambiamento climatico in Alaska.",
-      "zh": "探索阿拉斯加的实时天气、海冰、历史气候数据以及交互式气候变化情景。"
+      "zh": "探索阿拉斯加的实时天气、海冰、历史气候数据以及交互式气候变化情景。",
+      "ko": "알래스카의 실시간 날씨, 해빙, 과거 기후 데이터와 인터랙티브 기후 변화 시나리오를 살펴보세요."
     },
     "tags": ["science"],
     "demo": "https://chiantera.github.io/alaska/"
   },
   {
     "repo": "energy",
-    "title": { "en": "The Renewable Revolution", "it": "La rivoluzione rinnovabile", "zh": "可再生能源革命" },
+    "title": { "en": "The Renewable Revolution", "it": "La rivoluzione rinnovabile", "zh": "可再生能源革命", "ko": "재생 에너지 혁명" },
     "description": {
       "en": "An interactive 2025 report on the global energy transition: economic tipping points, technological breakthroughs and geopolitical shifts.",
       "it": "Report interattivo 2025 sulla transizione energetica globale: punti di svolta economici, innovazioni tecnologiche e cambiamenti geopolitici.",
-      "zh": "2025 年全球能源转型交互式报告：经济转折点、技术突破与地缘政治变化。"
+      "zh": "2025 年全球能源转型交互式报告：经济转折点、技术突破与地缘政治变化。",
+      "ko": "세계 에너지 전환에 관한 2025년 인터랙티브 보고서: 경제적 전환점, 기술 혁신, 지정학적 변화."
     },
     "tags": ["science"]
   },
   {
     "repo": "romanticismReport",
-    "title": { "en": "The Unquiet Ghost", "it": "The Unquiet Ghost", "zh": "The Unquiet Ghost" },
+    "title": { "en": "The Unquiet Ghost", "it": "The Unquiet Ghost", "zh": "The Unquiet Ghost", "ko": "The Unquiet Ghost" },
     "description": {
       "en": "An interactive report on Romanticism, in English and Italian, installable as a PWA.",
       "it": "Report interattivo sul Romanticismo, in inglese e in italiano, installabile come PWA.",
-      "zh": "关于浪漫主义的交互式报告，提供英文和意大利文版本，可作为 PWA 安装。"
+      "zh": "关于浪漫主义的交互式报告，提供英文和意大利文版本，可作为 PWA 安装。",
+      "ko": "낭만주의에 관한 인터랙티브 보고서. 영어와 이탈리아어로 제공되며 PWA로 설치할 수 있습니다."
     },
     "tags": ["creative"],
     "demo": "https://chiantera.github.io/romanticismReport/"
   },
   {
     "repo": "bach",
-    "title": { "en": "Vieni a vivere con me", "it": "Vieni a vivere con me", "zh": "Vieni a vivere con me" },
+    "title": { "en": "Vieni a vivere con me", "it": "Vieni a vivere con me", "zh": "Vieni a vivere con me", "ko": "Vieni a vivere con me" },
     "description": {
       "en": "A 75-second animated short made entirely in code: Pillow-drawn frames, Bach's Prelude in C synthesized note by note with NumPy, and one epic jar of mayonnaise.",
       "it": "Un cortometraggio animato di 75 secondi fatto interamente con il codice: fotogrammi disegnati con Pillow, il Preludio in Do di Bach sintetizzato nota per nota con NumPy e un barattolo di maionese epico.",
-      "zh": "一部完全由代码生成的 75 秒动画短片：用 Pillow 逐帧绘制画面，用 NumPy 逐音合成巴赫的 C 大调前奏曲，外加一罐史诗级的蛋黄酱。"
+      "zh": "一部完全由代码生成的 75 秒动画短片：用 Pillow 逐帧绘制画面，用 NumPy 逐音合成巴赫的 C 大调前奏曲，外加一罐史诗级的蛋黄酱。",
+      "ko": "전부 코드로 만든 75초 애니메이션 단편. Pillow로 한 프레임씩 그리고, NumPy로 바흐의 C장조 전주곡을 한 음씩 합성했으며, 전설적인 마요네즈 한 병이 등장합니다."
     },
     "tags": ["creative"]
   },
   {
     "repo": "schedapro",
-    "title": { "en": "SchedaPRO", "it": "SchedaPRO", "zh": "SchedaPRO" },
+    "title": { "en": "SchedaPRO", "it": "SchedaPRO", "zh": "SchedaPRO", "ko": "SchedaPRO" },
     "description": {
       "en": "Mobile-first AI coach for freelance personal trainers. It reads session logs and measurements, spots plateaus and drafts the next week's plan for the trainer to review.",
       "it": "Coach AI mobile-first per personal trainer freelance: legge log e misurazioni, trova i plateau e prepara la bozza della scheda settimanale da far verificare al trainer.",
-      "zh": "为自由职业私人教练打造的移动优先 AI 助手：读取训练记录和身体数据，发现瓶颈期，并起草下周计划供教练审核。"
+      "zh": "为自由职业私人教练打造的移动优先 AI 助手：读取训练记录和身体数据，发现瓶颈期，并起草下周计划供教练审核。",
+      "ko": "프리랜서 퍼스널 트레이너를 위한 모바일 우선 AI 코치. 세션 기록과 신체 측정값을 읽고 정체기를 찾아내어 트레이너가 검토할 다음 주 계획 초안을 만듭니다."
     },
     "tags": ["apps", "ai"],
     "demo": "https://digitaltrainer.netlify.app"
   },
   {
     "repo": "msg",
-    "title": { "en": "msg", "it": "msg", "zh": "msg" },
+    "title": { "en": "msg", "it": "msg", "zh": "msg", "ko": "msg" },
     "description": {
       "en": "A private two-person messaging PWA with realtime chat, photos, read receipts and silent messages. Built with Next.js and Supabase, with an Android build in msgapk.",
       "it": "PWA di messaggistica privata per due persone, con chat in tempo reale, foto, conferme di lettura e messaggi silenziosi. Next.js e Supabase, con versione Android in msgapk.",
-      "zh": "两人专用的私密即时通讯 PWA，支持实时聊天、照片、已读回执和静音消息。基于 Next.js 和 Supabase，另有 Android 版本 msgapk。"
+      "zh": "两人专用的私密即时通讯 PWA，支持实时聊天、照片、已读回执和静音消息。基于 Next.js 和 Supabase，另有 Android 版本 msgapk。",
+      "ko": "두 사람만을 위한 비공개 메시징 PWA. 실시간 채팅, 사진, 읽음 확인, 무음 메시지를 지원합니다. Next.js와 Supabase로 만들었으며 Android 버전은 msgapk에 있습니다."
     },
     "tags": ["apps"]
   },
   {
     "repo": "nimbus-landing",
-    "title": { "en": "Nimbus", "it": "Nimbus", "zh": "Nimbus" },
+    "title": { "en": "Nimbus", "it": "Nimbus", "zh": "Nimbus", "ko": "Nimbus" },
     "description": {
       "en": "A gleefully late-2010s SaaS landing site, with a gradient hero, floating cards and a working AI assistant behind a serverless proxy.",
       "it": "Un sito SaaS in pieno stile fine anni 2010, con hero sfumato, card fluttuanti e un vero assistente AI dietro un proxy serverless.",
-      "zh": "一个满怀热情复刻 2010 年代末风格的 SaaS 着陆页：渐变大标题、浮动卡片，以及通过无服务器代理运行的真实 AI 助手。"
+      "zh": "一个满怀热情复刻 2010 年代末风格的 SaaS 着陆页：渐变大标题、浮动卡片，以及通过无服务器代理运行的真实 AI 助手。",
+      "ko": "2010년대 후반 감성을 한껏 살린 SaaS 랜딩 사이트. 그라디언트 히어로, 떠다니는 카드, 서버리스 프록시로 동작하는 실제 AI 어시스턴트."
     },
     "tags": ["apps", "ai"],
     "demo": "https://chiantera.github.io/nimbus-landing/"
   },
   {
     "repo": "silicon-colosseum",
-    "title": { "en": "Silicon Colosseum", "it": "Silicon Colosseum", "zh": "Silicon Colosseum" },
+    "title": { "en": "Silicon Colosseum", "it": "Silicon Colosseum", "zh": "Silicon Colosseum", "ko": "Silicon Colosseum" },
     "description": {
       "en": "An autonomous coding agent pits Rust against Go in an adversarial optimization battle. Rust wins at about 3.8 ms against Go's 21 ms.",
       "it": "Un agente di coding autonomo mette Rust contro Go in una battaglia di ottimizzazione. Vince Rust con circa 3,8 ms contro i 21 ms di Go.",
-      "zh": "自主编程智能体让 Rust 与 Go 展开优化对决。Rust 以约 3.8 毫秒对 Go 的 21 毫秒胜出。"
+      "zh": "自主编程智能体让 Rust 与 Go 展开优化对决。Rust 以约 3.8 毫秒对 Go 的 21 毫秒胜出。",
+      "ko": "자율 코딩 에이전트가 Rust와 Go를 최적화 대결에 붙입니다. Rust가 약 3.8ms로 Go의 21ms를 누르고 승리."
     },
     "tags": ["ai"]
   }
