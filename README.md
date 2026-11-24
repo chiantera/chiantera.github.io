@@ -32,6 +32,7 @@ Add an entry to `projects.json`. The array order is the display order.
 - `tags` should come from `science`, `apps`, `ai` or `creative`. Their labels are defined in `STRINGS` in `app.js`.
 - `demo` is optional. Leave it out when there is no live version.
 - `featured: true` puts the card in the top section.
+- `private: true` hides the Code button, for projects whose repo is private (the card links to `demo` only).
 
 Stars, main language and last-updated date come from the GitHub API in the visitor's browser. They're cached for an hour. If the API can't be reached, the cards still show without them.
 

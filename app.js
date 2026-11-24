@@ -126,7 +126,8 @@ function relativeTime(iso) {
 
 function card(p) {
   const t = STRINGS[lang];
-  const repoUrl = `https://github.com/${USER}/${p.repo}`;
+  // Private repos have no public code page, so their cards link only to the demo.
+  const repoUrl = p.private ? null : `https://github.com/${USER}/${p.repo}`;
   const s = stats[p.repo];
 
   const meta = s && el('div', { class: 'meta' },
@@ -142,7 +143,7 @@ function card(p) {
     meta,
     el('div', { class: 'actions' },
       p.demo && el('a', { class: 'btn primary', href: p.demo }, `${t.demo} ↗`),
-      el('a', { class: 'btn', href: repoUrl }, t.code),
+      repoUrl && el('a', { class: 'btn', href: repoUrl }, t.code),
     ),
   );
 }
