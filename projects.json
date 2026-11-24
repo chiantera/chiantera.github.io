@@ -21,7 +21,7 @@
       "zh": "为 n 名员工、m 个岗位排班：用自然语言描述规则，确定性求解器保证岗位覆盖、合同工时和最低休息时间。",
       "ko": "n명의 근무자와 m개의 근무지를 위한 교대 근무 플래너. 규칙을 자연어로 설명하면 결정론적 솔버가 인력 배치, 계약 근무 시간, 최소 휴식을 보장합니다."
     },
-    "tags": ["apps", "ai"],
+    "tags": ["apps",  "ai"],
     "featured": true
   },
   {
@@ -34,8 +34,9 @@
       "ko": "언덕 기슭 풀밭에서 들려주는 잠자리 동화 책장. 반딧불이 니나, 늙은 두더지 틸데, 박쥐 우고의 이야기와 낭독 오디오가 함께합니다(이탈리아어)."
     },
     "tags": ["creative"],
-    "demo": "https://chiantera.github.io/fiabe/",
-    "featured": true
+    "demo": "https://fiabe.vercel.app",
+    "featured": true,
+    "private": true
   },
   {
     "repo": "celestial-zen",
@@ -46,7 +47,7 @@
       "zh": "3D 冥想体验：五万多颗 WebGL 星星随鼠标流动，配合合成的环境音乐，可调节流速和色调。",
       "ko": "3D 명상 체험. 마우스를 따라 흐르는 5만 개 이상의 WebGL 별, 합성된 앰비언트 사운드, 조절 가능한 흐름과 색조."
     },
-    "tags": ["science", "creative"],
+    "tags": ["science",  "creative"],
     "demo": "https://chiantera.github.io/celestial-zen/",
     "featured": true
   },
@@ -59,7 +60,7 @@
       "zh": "为意大利刑事辩护律师设计的移动优先案件梳理工具：把杂乱的卷宗整理成时间线、期限、矛盾点和文书草稿。",
       "ko": "이탈리아 형사 변호인을 위한 모바일 우선 사건 정리 도구. 복잡한 사건 기록을 타임라인, 기한, 모순점, 문서 초안으로 정리합니다."
     },
-    "tags": ["apps", "ai"],
+    "tags": ["apps",  "ai"],
     "featured": true
   },
   {
@@ -135,6 +136,18 @@
     "tags": ["science"]
   },
   {
+    "repo": "stellecadenti",
+    "title": { "en": "Stelle cadenti", "it": "Stelle cadenti", "zh": "流星", "ko": "별똥별" },
+    "description": {
+      "en": "A small night sky of twinkling stars and shooting stars, made in a single HTML page.",
+      "it": "Un piccolo cielo notturno di stelle che brillano e stelle cadenti, in una sola pagina HTML.",
+      "zh": "一片小小的夜空，繁星闪烁、流星划过，全部写在一个 HTML 页面里。",
+      "ko": "반짝이는 별과 별똥별이 흐르는 작은 밤하늘. HTML 한 페이지로 만들었습니다."
+    },
+    "tags": ["creative"],
+    "demo": "https://chiantera.github.io/stellecadenti/"
+  },
+  {
     "repo": "romanticismReport",
     "title": { "en": "The Unquiet Ghost", "it": "The Unquiet Ghost", "zh": "The Unquiet Ghost", "ko": "The Unquiet Ghost" },
     "description": {
@@ -145,6 +158,17 @@
     },
     "tags": ["creative"],
     "demo": "https://chiantera.github.io/romanticismReport/"
+  },
+  {
+    "repo": "la-versione-di-elena",
+    "title": { "en": "La versione di Elena", "it": "La versione di Elena", "zh": "海伦的版本", "ko": "헬레네의 이야기" },
+    "description": {
+      "en": "The Odyssey told by its women: an interactive exploration of Homer's epic through the voices of Helen of Troy and Penelope (in Italian).",
+      "it": "L'Odissea raccontata dalle donne: un'esplorazione interattiva dell'epica omerica attraverso le voci di Elena di Troia e Penelope.",
+      "zh": "由女性讲述的《奥德赛》：通过特洛伊的海伦与珀涅罗珀的声音，交互式探索荷马史诗（意大利语）。",
+      "ko": "여성들이 들려주는 『오디세이아』. 트로이의 헬레네와 페넬로페의 목소리로 호메로스의 서사시를 인터랙티브하게 탐험합니다(이탈리아어)."
+    },
+    "tags": ["creative"]
   },
   {
     "repo": "bach",
@@ -166,7 +190,7 @@
       "zh": "为自由职业私人教练打造的移动优先 AI 助手：读取训练记录和身体数据，发现瓶颈期，并起草下周计划供教练审核。",
       "ko": "프리랜서 퍼스널 트레이너를 위한 모바일 우선 AI 코치. 세션 기록과 신체 측정값을 읽고 정체기를 찾아내어 트레이너가 검토할 다음 주 계획 초안을 만듭니다."
     },
-    "tags": ["apps", "ai"],
+    "tags": ["apps",  "ai"],
     "demo": "https://digitaltrainer.netlify.app"
   },
   {
@@ -181,6 +205,18 @@
     "tags": ["apps"]
   },
   {
+    "repo": "saymynamesaymyname",
+    "title": { "en": "saymynamesaymyname", "it": "saymynamesaymyname", "zh": "saymynamesaymyname", "ko": "saymynamesaymyname" },
+    "description": {
+      "en": "A personal-growth and relationship companion built around timely check-ins. A prototype in invite-only beta.",
+      "it": "Un compagno per la crescita personale e le relazioni, costruito attorno a check-in al momento giusto. Prototipo in beta su invito.",
+      "zh": "围绕适时签到打造的个人成长与人际关系伙伴。目前为仅限邀请的测试版原型。",
+      "ko": "적절한 순간의 체크인을 중심으로 만든 개인 성장·관계 동반자. 초대제 베타로 운영 중인 프로토타입입니다."
+    },
+    "tags": ["apps",  "ai"],
+    "demo": "https://saymynamesaymyname.vercel.app"
+  },
+  {
     "repo": "nimbus-landing",
     "title": { "en": "Nimbus", "it": "Nimbus", "zh": "Nimbus", "ko": "Nimbus" },
     "description": {
@@ -189,7 +225,7 @@
       "zh": "一个满怀热情复刻 2010 年代末风格的 SaaS 着陆页：渐变大标题、浮动卡片，以及通过无服务器代理运行的真实 AI 助手。",
       "ko": "2010년대 후반 감성을 한껏 살린 SaaS 랜딩 사이트. 그라디언트 히어로, 떠다니는 카드, 서버리스 프록시로 동작하는 실제 AI 어시스턴트."
     },
-    "tags": ["apps", "ai"],
+    "tags": ["apps",  "ai"],
     "demo": "https://chiantera.github.io/nimbus-landing/"
   },
   {
