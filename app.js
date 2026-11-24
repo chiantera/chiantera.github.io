@@ -18,7 +18,7 @@ const STRINGS = {
     loading: 'Loading projects…',
     error: 'Could not load the project list.',
     empty: 'No projects with this tag.',
-    tags: { science: 'Science', apps: 'Apps', ai: 'AI', creative: 'Creative' },
+    tags: { science: 'Science', apps: 'Apps', ai: 'AI', creative: 'Creative', web: 'Websites' },
   },
   it: {
     bio: 'Visualizzazioni scientifiche, strumenti con l’AI e storie fatte di codice.',
@@ -33,7 +33,7 @@ const STRINGS = {
     loading: 'Caricamento progetti…',
     error: 'Impossibile caricare l’elenco dei progetti.',
     empty: 'Nessun progetto con questo tag.',
-    tags: { science: 'Scienza', apps: 'App', ai: 'AI', creative: 'Creativi' },
+    tags: { science: 'Scienza', apps: 'App', ai: 'AI', creative: 'Creativi', web: 'Siti web' },
   },
   zh: {
     bio: '科学可视化、AI 辅助工具，以及用代码写成的故事。',
@@ -48,7 +48,7 @@ const STRINGS = {
     loading: '正在加载项目…',
     error: '无法加载项目列表。',
     empty: '没有带此标签的项目。',
-    tags: { science: '科学', apps: '应用', ai: 'AI', creative: '创意' },
+    tags: { science: '科学', apps: '应用', ai: 'AI', creative: '创意', web: '网站' },
   },
   ko: {
     bio: '과학 시각화, AI 기반 도구, 그리고 코드로 쓴 이야기.',
@@ -63,7 +63,7 @@ const STRINGS = {
     loading: '프로젝트를 불러오는 중…',
     error: '프로젝트 목록을 불러올 수 없습니다.',
     empty: '이 태그의 프로젝트가 없습니다.',
-    tags: { science: '과학', apps: '앱', ai: 'AI', creative: '창작' },
+    tags: { science: '과학', apps: '앱', ai: 'AI', creative: '창작', web: '웹사이트' },
   },
 };
 

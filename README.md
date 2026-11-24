@@ -29,7 +29,7 @@ Add an entry to `projects.json`. The array order is the display order.
 
 - Write `title` and `description` in English (`en`), Italian (`it`), Simplified Chinese (`zh`) and Korean (`ko`). If a language is missing, the English text is shown.
 - `repo` must be a **public** repo under `chiantera`. It's used for the Code link and to match live stats.
-- `tags` should come from `science`, `apps`, `ai` or `creative`. Their labels are defined in `STRINGS` in `app.js`.
+- `tags` should come from `science`, `apps`, `ai`, `creative` or `web`. Their labels are defined in `STRINGS` in `app.js`.
 - `demo` is optional. Leave it out when there is no live version.
 - `featured: true` puts the card in the top section.
 - `private: true` hides the Code button, for projects whose repo is private (the card links to `demo` only).
